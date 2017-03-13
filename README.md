@@ -3,11 +3,17 @@ testing playground for gunicorn--- https://www.digitalocean.com/community/tutori
 
 
 Client Request ----> Nginx (Reverse-Proxy)
+
                         |
-                       /|\                           
+                        
+                       /|\                 
+                       
                       | | `-> App. Server I.   127.0.0.1:8081
+                      
                       |  `--> App. Server II.  127.0.0.1:8082
+                      
                        `----> App. Server III. 127.0.0.1:8083
+                       
 
 
 
